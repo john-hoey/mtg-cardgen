@@ -1,0 +1,24 @@
+<ul>
+    <li *ngFor="let card of cards; index as i">
+      <div class="card-flex-container">
+        <div class="card-outer-border">
+          <div class="card-inner-space">
+            <div class="card-title-cost-container">
+              <p class="card-title">{{card.title}}</p>
+              <p class="card-cost">{{card.cost}}</p>
+            </div>
+            <div class="card-image-container"></div>
+            <div class="card-type-container">{{card.type}}</div>
+            <div class="card-game-text-container">
+              <p class="rules-text">{{card.gametext}}</p>
+              <p class="flavor-text">
+                {{card.flavortext}}</p>
+            </div>
+            <div class="card-black-bottom-container"></div>
+          </div>
+          <div class="card-power-toughness-container">{{card.pt}}</div>
+        </div>
+        
+      </div>
+    </li>
+  </ul>

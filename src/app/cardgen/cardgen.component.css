@@ -1,0 +1,140 @@
+
+.card-flex-container {
+}
+.card-outer-border {
+    display: flex;
+    position: relative;
+    /* left: 30px; */
+    width: 350px;
+    height: 500px;
+    background-color: black;
+    border-radius: 15px;
+    justify-content: center;
+  }
+  
+  .card-inner-space {
+    display: flex;
+    flex-direction: column;
+    background-color: #68906e;
+    background-image: url("/assets/elvishmystic.jpg");
+    margin: 20px 20px 20px 20px;
+    width: 80em;
+    border-bottom-left-radius: 90%80px;
+    border-bottom-right-radius: 90%80px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;  
+    align-items: center;
+    padding: 6px 3px 0px 3px;
+  }
+  
+  .card-title-cost-container {
+    display: flex;
+    background-color: #eee;
+    width: 95%;
+    margin: 0;
+    border: 4px solid rgba(47, 117, 89, .9);
+    height: 7%;
+   border-radius: 15px;
+     justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0px 4px;
+  }
+  .card-cost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ccba7;
+    border-radius: 100%;
+    height: 60%;
+    width: 6.5%;
+    font-size: 9pt;
+  }
+  
+  .card-image-container {
+    display: flex;
+    background-color: #eee;
+    width: 92%;
+    margin: -6px 0px 0px 0px;
+    border: 4px solid rgba(47, 117, 89, .9);
+    height: 60%;
+  /*  border-radius: 10px; */
+     justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0px 4px;
+    background-image: url("/assets/elvishmystic.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .card-type-container {
+    display: flex;
+    background-color: #eee;
+    width: 95%;
+    margin: 0;
+    border: 5px solid rgba(47, 117, 89, .9);
+    height: 7%;
+   border-radius: 15px;
+     justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0px 4px;
+    margin: -4px 0px 0px 0px;
+   z-index: 1
+  }
+  .card-game-text-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    width: 92%;
+    margin: -5px 0px 0px 0px;
+    border: 4px solid rgba(47, 117, 89, .9);
+    height: 50%;
+  /*  border-radius: 10px; */
+     justify-content: space-around;
+    /* align-items: center; */
+    font-weight: bolder;
+    padding: 0px 4px;
+    z-index: 0;
+   
+  }
+  
+  .card-black-bottom-container {
+    background-color: black;
+    width: 90%;
+      height: 5%;
+  /*   z-index: 1; */
+  }
+  .card-power-toughness-container {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      font-size: 15pt;
+      font-weight: bold;
+      right: 7%;
+      bottom: 6%;
+    /* position: absolute; */
+    background-color: #eee;
+    width: 50px;
+    height: 25px;
+    /* top: 458px;
+    right: 280px; */
+    z-index: 3;
+    border-radius: 10px;
+    border: 2px solid #505750;
+     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+               0 0  0 2px rgb(255,255,255),
+               0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+  /*   z-index: 3; */
+  }
+.rules-text {
+    padding: 25px 5px -5px 5px;
+    margin-bottom: -10px;
+}
+  .flavor-text {
+      font-style: italic;
+      margin-top: -5px;
+      
+  }
